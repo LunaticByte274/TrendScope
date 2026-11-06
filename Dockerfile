@@ -39,10 +39,10 @@ COPY --from=frontend-builder /app/frontend/dist ./frontend/dist/
 
 WORKDIR /app/backend
 ENV PYTHONPATH=/app/backend
-ENV PORT=8001
+ENV PORT=7860
 ENV HOST=0.0.0.0
 
-EXPOSE 8001
+EXPOSE 7860 8001
 
 # Healthcheck to ensure API and DuckDB views are ready
 HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \

@@ -7,9 +7,9 @@ services:
       dockerfile: Dockerfile
     container_name: trendscope_platform
     ports:
-      - "8001:8001"
+      - "8001:7860"
     environment:
-      - PORT=8001
+      - PORT=7860
       - HOST=0.0.0.0
     volumes:
       - ./data/clean:/app/data/clean:ro
