@@ -36,3 +36,7 @@ BDA PROJECT/data/*.csv
 # Environment secrets
 .env
 
+
+# Exported CSVs
+data/csv/
+
