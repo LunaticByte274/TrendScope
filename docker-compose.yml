@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  trendscope:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: trendscope_platform
+    ports:
+      - "8001:8001"
+    environment:
+      - PORT=8001
+      - HOST=0.0.0.0
+    volumes:
+      - ./data/clean:/app/data/clean:ro
+    restart: unless-stopped

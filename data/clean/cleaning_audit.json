@@ -1,0 +1,82 @@
+[
+  {
+    "country": "CA",
+    "raw_records": 40881,
+    "exact_duplicates_removed": 0,
+    "same_day_conflicts_resolved": 0,
+    "clean_records": 40881,
+    "unique_videos": 24427
+  },
+  {
+    "country": "DE",
+    "raw_records": 40840,
+    "exact_duplicates_removed": 0,
+    "same_day_conflicts_resolved": 0,
+    "clean_records": 40840,
+    "unique_videos": 29627
+  },
+  {
+    "country": "FR",
+    "raw_records": 40724,
+    "exact_duplicates_removed": 0,
+    "same_day_conflicts_resolved": 0,
+    "clean_records": 40724,
+    "unique_videos": 30581
+  },
+  {
+    "country": "GB",
+    "raw_records": 38916,
+    "exact_duplicates_removed": 171,
+    "same_day_conflicts_resolved": 3,
+    "clean_records": 38742,
+    "unique_videos": 3272
+  },
+  {
+    "country": "IN",
+    "raw_records": 37352,
+    "exact_duplicates_removed": 4263,
+    "same_day_conflicts_resolved": 631,
+    "clean_records": 32458,
+    "unique_videos": 16307
+  },
+  {
+    "country": "JP",
+    "raw_records": 20523,
+    "exact_duplicates_removed": 5677,
+    "same_day_conflicts_resolved": 303,
+    "clean_records": 14543,
+    "unique_videos": 12912
+  },
+  {
+    "country": "KR",
+    "raw_records": 34567,
+    "exact_duplicates_removed": 2316,
+    "same_day_conflicts_resolved": 309,
+    "clean_records": 31942,
+    "unique_videos": 15876
+  },
+  {
+    "country": "MX",
+    "raw_records": 40451,
+    "exact_duplicates_removed": 49,
+    "same_day_conflicts_resolved": 329,
+    "clean_records": 40073,
+    "unique_videos": 33513
+  },
+  {
+    "country": "RU",
+    "raw_records": 40739,
+    "exact_duplicates_removed": 46,
+    "same_day_conflicts_resolved": 371,
+    "clean_records": 40322,
+    "unique_videos": 34282
+  },
+  {
+    "country": "US",
+    "raw_records": 40949,
+    "exact_duplicates_removed": 48,
+    "same_day_conflicts_resolved": 2,
+    "clean_records": 40899,
+    "unique_videos": 6351
+  }
+]

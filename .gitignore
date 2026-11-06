@@ -1,0 +1,38 @@
+# Python & Virtualenv
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+frontend/node_modules/
+frontend/.pnpm-store/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Application Runtime & Logs
+.trendscope.pid
+*.log
+trendscope_production.log
+
+# Raw historical CSV dumps (clean 2026 parquet tables used for runtime in data/clean/)
+BDA PROJECT/data/*.csv
+
+# System & IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment secrets
+.env
+
